@@ -1,0 +1,133 @@
+@media screen and (max-width: 480px) {
+  .textname{
+  margin-top: -40px;
+  font-size: 17px;
+  color:#b8b8b8;
+  width: 160px;
+}
+.logo{
+  width: 50%;
+  height:auto;
+  margin: 0 auto;
+}
+body {
+  background:url("./mobile_bg.jpg") no-repeat;
+  background-size:100% 100%;
+}
+.title{
+  width: 100%;
+}
+html,body{
+  width:100%;
+}
+.title{
+  margin-top:20px; 
+}
+.frame_1col{
+          height:430px;
+}
+input,input[required]:invalid{
+  height: 40px;
+  width:inherit;
+}
+input:focus + .textname{
+  color:#36169C;
+  font-size: 15px;
+  margin-top:-73px;
+  margin-bottom: 41px;
+  font-weight:bold;
+}
+input:focus,input[required]:valid{
+    border: 1px #36169C solid;
+    height: 40px;
+    width:inherit;
+    background-color: rgb(236,160,24) ;
+  -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.5) !important;
+      -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.5) !important;
+      box-shadow: inset 0 3px 8px rgba(0,0,0,.5) !important;
+}
+input[required]:valid + .textname{
+  color:#36169C;
+  font-size: 15px;
+  margin-top:-73px;
+  margin-bottom: 41px;
+  font-weight:bold;
+}
+.textname{
+  margin-top: -38px;
+  font-size: 17px;
+  color:#ffffff;
+}
+
+.inputbox1{
+   width:235px;
+  height: 40px;
+  top:40px;
+  left:0px;
+  position: absolute;}
+.inputbox2{
+    width:235px;
+  height: 40px;
+  top:110px;
+  left:0px;
+  position: absolute;}
+
+.inputbox3{
+     width:235px;
+  height: 40px;
+  top:180px;
+  left:0px;
+  position: absolute;}
+.inputbox4{
+   width:235px;
+  height: 40px;
+  top:250px;
+  left:0px;
+  position: absolute;
+}
+
+.buttonbox{
+  width:259px;
+  height: 40px;
+  top:320px;
+  left:20px;
+  position: absolute;
+  margin-bottom: 40px;
+}
+.container_app_temp_button_handin{
+  width:100%;
+  height: 40px;
+  position: static;
+  border: 1px #d4d4d4 solid;
+  -webkit-border-radius:10px;
+  border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  font-size: 17px;
+  font-weight: bold;
+  color:#ffffff;
+  background-color: rgb(236,160,24);
+  background: -moz-linear-gradient(
+    top,
+    #eca018 0%,
+    #e39811 50%,
+    #db8e05);
+  background: -webkit-gradient(
+    linear,left top,left bottom,
+    from(#eca018),
+    color-stop(0.50,#e39811),
+    to(#db8e05));
+  -moz-box-shadow:  0 2px 0px rgba(0,0,0,.2), inset 0 2px 0px rgba(255,255,255,.7);
+    -webkit-box-shadow: 0 2px 0px rgba(0,0,0,.2), inset 0 2px 0px rgba(255,255,255,.7);
+    box-shadow: 0 2px 0px rgba(0,0,0,.2), inset 0 2px 0px rgba(255,255,255,.7);
+}
+
+
+  .frame_1col {
+    width: 300px !important;
+    overflow: hidden;
+    height: 400px;
+    margin-bottom: 200px;
+  }
+
+}

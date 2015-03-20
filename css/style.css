@@ -1,0 +1,51 @@
+/*
+	Shared Styles
+	==============
+	Website: Join Us
+	Author: morriswmz
+
+*/
+
+@import url('reset.css');
+
+/* basic */
+body {
+	font-family: "微软雅黑","宋体";
+	font-size: 12px;
+	background:url("./pc_bg.jpg");
+	
+	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";  
+	-moz-background-size:no-repeat;  
+	-webkit-background-size:no-repeat;
+    	background-size:no-repeat;
+    	background-size:cover;
+
+}
+div { margin: 0 0; }
+p { text-indent: 2em; line-height: 150%; }
+a { text-decoration: none; color: #06bfea;}
+	a:hover { color: #65dff9; }
+
+h1,h2,h3,h4,h5 { line-height: 150%; }	
+
+h2 { font-size: 20px; color: #000; font-weight:bold;}
+h3 { font-size: 18px; color: #000; }
+h4 { font-size: 16px; color: #06acd7; font-weight: bold; }
+h5 { font-size: 15px; color: #06acd7; font-weight: bold; }
+
+img { border: 0 solid #fff; }
+
+/* framework */
+.clear { height: 0; clear: both; }
+.clear_left { clear: left; }
+.clear_right { clear: right; }
+
+.ph_10 { height: 10px; width: 100%; clear: both; } /* place holder 10px high */
+
+
+
+		/* note: overflow:hidden is intended for IE6; */
+/* 一栏 */
+.frame_1col { margin: 0 auto; width: auto; }
+
+/* Shared Components */

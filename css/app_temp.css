@@ -1,0 +1,457 @@
+﻿.container_app_temp_title{
+	width:79px;
+	font-family:微软雅黑;
+	font-size:18px;
+	font-weight:bold;
+	color:black;
+	position:relative;
+	margin-left:43px;
+	margin-top:49px;
+	padding:0;
+	top: -1px;
+	left: -3px;
+}
+.copyright{
+margin-top:40px;
+}
+.logo{
+	margin-top:10px;
+	margin-left: 10px;
+	width:15%;
+	height: auto;
+}
+.title{
+	color:#30979e;
+	font-size: 30px;
+	margin: 0 auto; 
+	 width: 800px; 
+	 margin-top: 80px;
+	 font-weight: bold;
+}
+.frame_1col{
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	-o-border-radius:20px;
+	border-radius:20px;
+	width:640px;
+	height:400px; 
+	margin-top:20px; 
+	background:rgba(236,160,24,.9);
+	box-shadow: 10px 10px 20px rgba(0,0,0,.7);
+}
+
+input,textarea{
+	outline: none;}
+input,input[required]:invalid{
+		font-family: "微软雅黑";
+	margin-left: 20px;
+	height: 40px;
+	width:210px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	padding-left: 23px;
+	font-size: 14px;
+	background-color: rgb(236,160,24);
+	background: -moz-linear-gradient(
+		top,
+		#eca018 0%,
+		#e39811 50%,
+		#db8e05);
+	background: -webkit-gradient(
+		linear,left top,left bottom,
+		from(#eca018),
+		color-stop(0.50,#e39811),
+		to(#db8e05));
+	-moz-box-shadow:  0 2px 0px rgba(0,0,0,.2), inset 0 2px 0px rgba(255,255,255,.7);
+    -webkit-box-shadow: 0 2px 0px rgba(0,0,0,.2), inset 0 2px 0px rgba(255,255,255,.7);
+    box-shadow: 0 2px 0px rgba(0,0,0,.2), inset 0 2px 0px rgba(255,255,255,.7);
+}
+
+input:focus,input[required]:valid{
+	  border: 1px #36169C solid;
+	  height: 40px;
+	  width:210px;
+	  background-color: rgb(236,160,24) ;
+	-moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.5) !important;
+    	-webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.5) !important;
+    	box-shadow: inset 0 3px 8px rgba(0,0,0,.5) !important;
+}
+
+input[required]:valid+.textname{
+	color:#36169C;
+	font-size: 10px;
+	margin-top:-68px;
+	margin-left: 20px;
+	margin-bottom: 41px;
+	font-weight:bold;
+}
+
+
+.textname{
+	margin-top: -38px;
+	margin-left: 20px;
+	font-size: 17px;
+	color:#ffffff;
+}
+
+input:focus + .textname{
+	color:#36169C;
+	font-size: 10px;
+	margin-top:-68px;
+	margin-left: 20px;
+	margin-bottom: 41px;
+	font-weight:bold;
+}
+
+
+
+.textname{
+transition: all 0.3s;
+-moz-transition: all 0.3s; /* Firefox 4 */
+-webkit-transition: all 0.3s; /* Safari 和 Chrome */
+-o-transition: all 0.3s;
+}
+
+.inputbox1{
+	width:243px;
+	height: 40px;
+	top:60px;
+	left: 40px;
+	position: absolute;
+}
+.inputbox2{
+	width:243px;
+	height: 40px;
+	top:60px;
+	position: absolute;
+	left: 330px;
+}
+.inputbox3{
+	width:243px;
+	height: 40px;
+	position: absolute;
+	left: 40px;
+	top:180px;
+}
+.inputbox4{
+	width:243px;
+	height: 40px;
+	position: absolute;
+	left: 330px;
+	top:180px;
+}
+
+.container_app_temp_button_handin:hover{
+		-moz-box-shadow:  0 3px 0px rgba(0,0,0,.2), inset 0 3px 0px rgba(255,255,255,.8);
+    -webkit-box-shadow: 0 3px 0px rgba(0,0,0,.2), inset 0 3px 0px rgba(255,255,255,.8);
+    box-shadow: 0 3px 0px rgba(0,0,0,.2), inset 0 3px 0px rgba(255,255,255,.8);
+}
+.container_app_temp_button_handin{
+	width:60px;
+	height: 60px;
+	position: absolute;
+	left: 290px;
+	top:280px;
+	border: 1px #d4d4d4 solid;
+	-webkit-border-radius:80px;
+	border-radius:80px;
+	-moz-border-radius:80px;
+	-o-border-radius:80px;
+	font-size: 17px;
+	font-family: "微软雅黑";
+	color:#ffffff;
+	background-color: rgb(236,160,24);
+	background: -moz-linear-gradient(
+		top,
+		#eca018 0%,
+		#e39811 50%,
+		#db8e05);
+	background: -webkit-gradient(
+		linear,left top,left bottom,
+		from(#eca018),
+		color-stop(0.50,#e39811),
+		to(#db8e05));
+	-moz-box-shadow:  0 2px 0px rgba(0,0,0,.2), inset 0 2px 0px rgba(255,255,255,.8);
+    -webkit-box-shadow: 0 2px 0px rgba(0,0,0,.2), inset 0 2px 0px rgba(255,255,255,.8);
+    box-shadow: 0 2px 0px rgba(0,0,0,.2), inset 0 2px 0px rgba(255,255,255,.8);
+}
+
+
+
+.container_app_temp_mid{
+	width:100%;
+	min-width:1000px;
+	height:943px;
+	background-image:url('../images/app_temp_mid_main.jpg');
+	background-repeat:repeat-x;	
+	_margin-top:-1px;
+}
+
+	.container_app_temp_main{
+		width:960px;
+		height:958px;
+		background-color:#F7F7F7;
+		margin:0 auto;
+	}
+	
+		.container_app_temp_border_1{
+			width:11px;
+			height:858px;
+			background-image:url('../images/app_temp_mid_border_left.gif');
+			float:left;
+		}
+		
+		.container_app_temp_border_2{
+			width:11px;
+			height:858px;
+			background-image:url('../images/app_temp_mid_border_right.gif');
+			float:left;
+		}
+		
+		.container_app_temp_content{
+			width:938px;
+			height:858px;
+			float:left;		
+		}
+			.container_app_temp_fillin_name{
+				width:213px;
+				height:25px;
+				border:1px #D4D4D4 solid;
+				margin-bottom:4px;
+			}
+				/* 姓名 */
+				
+			.container_app_temp_fillin_grade{
+				width:213px;
+				height:25px;
+				border:1px #D4D4D4 solid;
+				margin-bottom:4px;
+			}
+				/* 年级 */
+
+			.container_app_temp_fillin_major{
+				width:213px;
+				height:25px;
+				border:1px #D4D4D4 solid;
+				margin-bottom:4px;
+			}
+				/* 专业 */
+
+			.container_app_temp_fillin_id{
+				width:213px;
+				height:25px;
+				border:1px #D4D4D4 solid;
+				margin-bottom:4px;
+			}
+				/* 学号 */
+
+			.container_app_temp_fillin_email{
+				width:213px;
+				height:25px;
+				border:1px #D4D4D4 solid;
+				margin-bottom:4px;
+				
+			}
+				/* email */
+
+			.container_app_temp_fillin_tel{
+				width:213px;
+				height:25px;
+				border:1px #D4D4D4 solid;
+				margin-bottom:4px;
+			}
+				/* 联系电话 */
+				
+			.container_app_temp_choice_1st{
+				width:330px;
+				height:25px;
+				border:1px #D4D4D4 solid;
+				margin-bottom:4px;
+			}
+				/* 第一志愿 */
+
+			.container_app_temp_choice_2nd{
+				width:330px;
+				height:25px;
+				border:1px #D4D4D4 solid;
+				margin-bottom:4px;
+			}
+				/* 第二志愿 */
+
+			.container_app_temp_choice_3rd{
+				width:330px;
+				height:25px;
+				border:1px #D4D4D4 solid;
+				margin-bottom:4px;
+			}
+				/* 第三志愿 */
+					.container_app_temp_pmapply{
+				width:330px;
+				height:150px;
+				border:1px #D4D4D4 solid;
+			}
+				/* pm计划申请理由 */
+				
+			.container_app_temp_test{
+				width:415px;
+				height:120px;
+				border:1px #D4D4D4 solid;
+			}
+				/* 职业测试结果 */
+				
+			.container_app_temp_experience{
+				width:415px;
+				height:110px;
+				border:1px #D4D4D4 solid;
+				margin-bottom:10px;
+			}
+				/* 特长及相关经历或奖项 */
+			
+			.container_app_temp_interest{
+				width:415px;
+				height:110px;
+				border:1px #D4D4D4 solid;
+				margin-bottom:10px;
+			}
+				/* 兴趣及自我评价 */
+							
+			.container_app_temp_explaination{
+				width:415px;
+				height:110px;
+				border:1px #D4D4D4 solid;
+				margin-bottom:10px;
+			}
+				/* 为什么希望加入我们 */
+							
+				.container_app_temp_buttonbar{
+					width:415px;
+					height:24px;
+					text-align:right;
+					margin-top:45px;
+				}
+
+					a.container_app_temp_button_handin{
+						display:block;
+						float: right;
+						width:74px;
+						height:24px;
+						margin-left:10px;
+						background-image:url('../images/按钮.png');
+						background-position:0px 0px;
+					}
+					
+						a.container_app_temp_button_handin:link{
+							display:block;
+							float: right;
+							width:74px;
+							height:24px;
+							margin-left:10px;
+							background-image:url('../images/按钮.png');
+							background-position:0 0;
+						}
+						
+						a.container_app_temp_button_handin:hover{
+							display:block;
+							float: right;
+							width:74px;
+							height:24px;
+							margin-left:10px;
+							background-image:url('../images/按钮.png');
+							background-position:0 -26px;
+						}
+						
+						a.container_app_temp_button_handin:active{
+							display:block;
+							float: right;
+							width:74px;
+							height:24px;
+							margin-left:10px;
+							background-image:url('../images/按钮.png');
+							background-position:0 -50px;
+						}
+
+					a.container_app_temp_button_cancel{
+						display:block;
+						float: right;
+						width:74px;
+						height:24px;
+						margin-left:10px;
+						background-image:url('../images/按钮.png');
+						background-position:-84px 0px;
+					}
+					
+						a.container_app_temp_button_cancel:link{
+							display:block;
+							float: right;
+							width:74px;
+							height:24px;
+							margin-left:10px;
+							background-image:url('../images/按钮.png');
+							background-position:-84px 0;
+						}
+						
+						a.container_app_temp_button_cancel:hover{
+							display:block;
+							float: right;
+							width:74px;
+							height:24px;
+							margin-left:10px;
+							background-image:url('../images/按钮.png');
+							background-position:-84px -26px;
+						}
+						
+						a.container_app_temp_button_cancel:active{
+							display:block;
+							float: right;
+							width:74px;
+							height:24px;
+							margin-left:10px;
+							background-image:url('../images/按钮.png');
+							background-position:-84px -50px;
+						}
+
+
+.text_msg{
+	font-family:微软雅黑;
+	font-size:12px;
+	color:#5F5F5F;
+	margin-bottom:7px;
+}
+	
+	.text_msg_ultra{
+		font-family:微软雅黑;
+		font-size:12px;
+		color:#335F85;
+		margin-bottom:7px;
+	}
+
+	.text_msg_bold{
+		font-family:微软雅黑;
+		font-size:13px;
+		color:#5F5F5F;
+		font-weight:500
+	}
+
+.text_tab{
+	font-family:微软雅黑;
+	font-size:14px;
+	color:#335F85;
+	font-weight:500;
+	margin-bottom:7px;
+}
+/* 从原先global.css内移出 --Johnqs */
+.hr_long
+
+{
+
+    width: 860px;
+
+    height: -14px;
+
+    margin-top: 5px;
+
+    margin-bottom: 35px;
+
+}

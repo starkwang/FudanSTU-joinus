@@ -1,0 +1,14 @@
+/*
+	Styles for apply.html
+	==============
+	Website: Join Us
+	Author: morriswmz
+
+*/
+
+#apply_content { width: 938px; padding: 0 11px; }
+	#result_table { }
+	#result_table td {  line-height: 150%; }
+	#result_table h6 {font-size:12px;	color:#5F5F5F;margin-bottom:7px;}
+		.result_name { width: 146px; }
+		.result_info { width: 237px; }
